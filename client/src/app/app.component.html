@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+
+<ul>
+  <li *ngFor='let user of users'>{{user.id}} - {{user.userName}}</li>
+</ul>
+
+<ul>
+  <li *ngFor='let entry of entries'>{{entries.id}} - {{entries.projName}} - {{entries.platNo}} - {{entries.costElement}}
+    - {{entries.subCostElement}} - {{entries.section}} - {{entries.diameter}} - {{entries.baseWeight}}
+  </li>
+</ul>
